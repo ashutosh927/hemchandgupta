@@ -1,0 +1,226 @@
+/* Basic layout styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1em;
+}
+
+#hero-img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto 1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
+/* Section styles */
+section {
+    margin: 2em;
+}
+
+section h2 {
+    margin-top: 0;
+    
+}
+
+#about {
+    display: flex;
+    background-color:#caebff; /* add light background color */
+    padding: 2%;
+}
+
+.about-info {
+    width: 50%;
+    padding: 2%;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 50%; /* adjust as per your needs */
+}
+
+#about h2 {
+    font-size: 2.5em; /* increase font size */
+}
+
+#about p {
+    line-height: 1.5; /* increase line space */
+    font-size: 1.2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.light-background {
+  background-color: #ffffff;
+  text-align: center;
+  padding:20px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.center-content {
+  display: inline-block;
+}
+
+.whatsapp-button {
+  background-color: #0a6d4c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 40px; /* Set the line-height to the same as the button height */
+  transition: all 0.2s ease-in-out;
+}
+
+.whatsapp-icon {
+  height: 30px;
+  margin-right: 10px;
+  vertical-align:middle;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+
+  
+/* Services Section */
+.services-container {
+    display: flex;
+    flex-wrap: wrap; /* to make the services wrap to the next row */
+    justify-content: space-between; /* to distribute the services evenly */
+    margin: 1em;
+    padding: 1em;
+}
+
+.service {
+    width: 25.33%; /* to make 3 columns */
+    padding: 1%;
+    text-align: center;
+    margin: 1em;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease; /* to add a transition effect */
+}
+
+#services {
+    background-color: #dddddd; /* Change color here */
+}
+
+#services h2 {
+    background-color: #bdbdbd; /* Make header background a bit darker */
+    padding: 1em;
+    margin: 0;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service a {
+    color: inherit; /* to make the text color same as parent */
+    text-decoration: none; /* to remove the underline */
+}
+
+.service:hover {
+    border: 1px solid #555; /* to change border color on hover */
+    transition: all 0.5s ease; /* to add a transition effect */
+}
+
+.service h3 {
+    margin-top: 1em;
+}
+
+.service p {
+    margin-bottom: 1em;
+}
+
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+
+
+
+#social-links {
+    margin-top: 1em;
+}
+
+#social-links a {
+    margin-right: 0.5em;
+    opacity: 0.8;
+   
+}
+#social-links a:nth-child(3) img {
+    width: 35px;
+    height: 30px;
+}
+
+#social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+#google-forms {
+    display: flex;
+    align-items: center;
+  
+}
+.form-container {
+    width: 49%;
+    padding: 2%;
+    
+}
+
+.map-container {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.map-img-container {
+    width: 150;
+    padding: 2%;
+    
+}
+.map-embed-container {
+    width: 100%;
+    padding: 2%;
+    
+}
+#map {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1em;
+}
+
